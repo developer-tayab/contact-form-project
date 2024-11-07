@@ -6,20 +6,25 @@ export default {
   ],
   theme: {
     extend: {
-      container:{
-        center:true,
-        padding:{
-          DEFAULT:"1rem",
-          sm:"2rem",
-          lg:"4rem",
-          xl:"5rem",
-          "2xl":"6rem"
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem"
         }
       },
-      colors:{
-        primary : "#A91079" ,
-        secondary : "#2E0249"
+      colors: {
+        primary: "#A91079",
+        backgroundColor: "#2E0249"
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+
       }
+
 
     },
   },
